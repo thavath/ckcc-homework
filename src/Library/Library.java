@@ -10,6 +10,12 @@ public class Library {
 		String bookType;
 		String bookName;
 		Boolean bookStatus;
+		String borrowDate;
+		int borrowBook;
+		String returnDate;
+		String borrowerName;
+		String borrowerPhone;
+
 		
 		
 		public Book() {
@@ -31,7 +37,6 @@ public class Library {
 			this.bookName = bookName;
 			this.bookStatus = bookStatus;
 		}
-		
 	}
 	class Address{
 		int streetNumber;
